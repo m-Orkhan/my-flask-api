@@ -146,7 +146,6 @@ torchvision==0.15.2
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
-trescope @ https://ossgw.alicdn.com/homeai-inner/homeai_alg/trescope/trescope-0.0.1-py3-none-macosx_10_10_x86_64.whl#sha256=da59a72e4957f83bec01792143e749ebafc5279fab393d32a4ac8d0fe5e7c0cf
 types-python-dateutil==2.9.0.20241206
 typing_extensions==4.13.1
 tzdata==2025.2
