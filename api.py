@@ -452,9 +452,11 @@ def generate_room_json(desired_length, desired_width, desired_height, desired_ro
 
 
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/generate-room', methods=['POST'])
 def generate_room():
